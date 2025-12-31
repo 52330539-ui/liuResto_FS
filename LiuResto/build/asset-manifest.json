@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9c190187.css",
+    "main.js": "/static/js/main.30ed9dde.js",
+    "static/js/787.28cb0dcd.chunk.js": "/static/js/787.28cb0dcd.chunk.js",
+    "static/media/darkimg.jpg": "/static/media/darkimg.5afc0ead89cd2af24c54.jpg",
+    "static/media/Orange.jpg": "/static/media/Orange.35616b26e72175d43425.jpg",
+    "static/media/multiplePizzas.jpeg": "/static/media/multiplePizzas.490709e2113d96ca24a1.jpeg",
+    "static/media/Donut.jpg": "/static/media/Donut.5d9a57a4e99bda5a2465.jpg",
+    "static/media/Kaake.jpg": "/static/media/Kaake.645fd193fab3304c8fda.jpg",
+    "static/media/MankouchetZaatar.jpg": "/static/media/MankouchetZaatar.8ad16e9c72236b55ec5d.jpg",
+    "static/media/Croissant.jpg": "/static/media/Croissant.5c5d83c546e91c8d3c32.jpg",
+    "static/media/Mankouchetjebne.jpg": "/static/media/Mankouchetjebne.518f6c1ae2151011ba5c.jpg",
+    "static/media/imageleft.jpg": "/static/media/imageleft.0209d8a4f9e2b333ba34.jpg",
+    "index.html": "/index.html",
+    "main.9c190187.css.map": "/static/css/main.9c190187.css.map",
+    "main.30ed9dde.js.map": "/static/js/main.30ed9dde.js.map",
+    "787.28cb0dcd.chunk.js.map": "/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9c190187.css",
+    "static/js/main.30ed9dde.js"
+  ]
+}
