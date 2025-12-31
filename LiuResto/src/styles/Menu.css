@@ -1,0 +1,116 @@
+.menu {
+  width: 100%;
+  min-height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #000000;
+  padding: 50px 20px;
+}
+
+.menu .menuTitle {
+  font-family: cursive;
+  font-size: 60px;
+  color: #FFD700;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+
+.menuList {
+  width: 100%;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+
+
+.menuItem {
+  border-radius: 15px;
+  width: 300px;
+  padding: 25px;
+  box-shadow: 0px 3px 15px #FFD700;
+  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: box-shadow 0.3s ease-in;
+}
+
+.menuItem:hover {
+  box-shadow: 0px 3px 25px #FFD700;
+}
+
+
+.menuItem h1 {
+  font-size: 20px;
+  margin: 0;
+  color: #FFD700;
+}
+
+.menuItem p {
+  margin-top: 8px;
+  color: #FFD700;
+}
+
+
+.addBtn {
+  background-color: #FFD700;
+  color: #000000;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-size: 22px;
+  font-weight: bold;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.addBtn:hover {
+  background-color: #e6c200;
+}
+
+
+.addBtn:hover {
+  background-color: #e6c200;
+}
+
+
+@media only screen and (max-width: 1300px) {
+  .menuList {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .menuList {
+    grid-template-columns: 1fr;
+  }
+
+  .menu .menuTitle {
+    font-size: 45px;
+  }
+
+  .menuItem {
+    width: 90%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .menu .menuTitle {
+    font-size: 35px;
+  }
+
+  .menuItem h1 {
+    font-size: 18px;
+  }
+}

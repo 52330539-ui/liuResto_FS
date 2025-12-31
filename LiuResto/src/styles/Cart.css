@@ -1,0 +1,53 @@
+.cartPage {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #1a1a1a; 
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5); 
+  color: #fff; 
+}
+
+.cartPage h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #FFD700; 
+}
+
+.cartTable {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.cartTable th,
+.cartTable td {
+  padding: 12px;
+  border-bottom: 1px solid #555; 
+  text-align: left;
+  color: #fff; 
+}
+
+.cartTable th {
+  background-color: #333; 
+}
+
+.cartTotal {
+  text-align: right;
+  font-size: 20px;
+  font-weight: bold;
+  color: #FFD700; 
+}
+
+.removeButton {
+  padding: 5px 10px;
+  background: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  background: darkred;
+}
